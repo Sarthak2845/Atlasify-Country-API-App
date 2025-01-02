@@ -57,19 +57,12 @@ a {
     margin-inline:auto ;
 } 
 .dark-mode-header{
-    background-color: #021526;
-    color: #E2E2B6;
+    background-color: rgb(33, 33, 33);
+    color: rgb(230, 230, 230);
 }
 .dark-mode-body{
-    background-color: #03346E;
+    background-color: rgb(39, 41, 51);
 }
-
-
-.country-card.dark-mode-card {
-    background-color: #cfd1d7 !important;  
-    color: #021526 !important; 
-}
-
 
 .country-card {
     display: inline-block;
@@ -84,7 +77,11 @@ a {
     position: relative;
     z-index: 10;
 }
-
+.country-card.dark-mode-card {
+    background-color: rgb(136, 170, 238) !important;  
+    color: #021526 !important; 
+    box-shadow: 4px 4px black !important;
+}
 .country-card:hover {
     transform: scale(1.03);
     box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.2);
