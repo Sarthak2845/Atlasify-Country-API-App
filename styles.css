@@ -19,6 +19,8 @@ a {
     font-weight: 800;
 }
 .header-container {
+    background-color: #3E5879;
+    color: #F5EFE7;
     box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.557);
     padding-inline: 24px;
     position: sticky;
