@@ -5,8 +5,12 @@
 body {
     margin: 0;
     font-family: Nunito, sans-serif;
-    background-color: #FFE3E3;
+    background-color: rgb(181, 210, 173);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+
 main{
     padding: 24px;
     
@@ -17,13 +21,14 @@ a {
 }
 .title{
     font-weight: 800;
+    text-transform: uppercase;
 }
 .header-container {
-    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.557);
+    
     padding-inline: 24px;
     /* background-color: #3293e1; */
-    background-color: #3E5879;
-    color: #F5EFE7;
+    background-color: rgb(250, 223, 11);
+    color: black;
 }
 .header-content {
     display: flex;
@@ -34,11 +39,12 @@ a {
   
 }
 .dark-mode-btn{
-    /* background-color:#D91656; */
+    
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
     max-width: 150px;
+    font-weight: bold;
 }
 
  .countries-container {
@@ -71,10 +77,12 @@ a {
     border-radius: 8px;
     overflow: hidden;
     padding-bottom: 24px;
-    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.534);
+    box-shadow: 6px 6px 0px 0px rgb(0, 0, 0);
     transition: all 0.2s ease-in-out;
-    background-color: #f3f0ee;  
+    background-color: rgb(253, 253, 150); 
     cursor: pointer;
+    position: relative;
+    z-index: 10;
 }
 
 .country-card:hover {
@@ -104,10 +112,10 @@ a {
     /* flex-direction: row; */
 }
 .search-container{
-    background-color:#789DBC;
+    background-color: rgb(250, 223, 11);
     max-width: 350px;
     width: 100%;
-    box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.587);
+    box-shadow: 4px 6px 0px 0px rgb(0, 0, 0);
     border-radius: 4px;
     padding: 0 16px;
     padding-left: 24px;
@@ -119,7 +127,7 @@ a {
 .search-container input{
     border: none;
     padding: 16px;
-    background-color:#789DBC;
+    background-color: rgb(250, 223, 11);
     outline: none;
     cursor: pointer;
     width: 90%;
@@ -132,11 +140,11 @@ a {
 }
 .search-filter-container select{
     padding:12px;
-    background-color:#789DBC;
+    background-color: rgb(250, 223, 11);
     width:250px;
     outline: none;
     border: none;
-    box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.587);
+    box-shadow: 4px 6px 0px 0px rgb(0, 0, 0);
     border-radius: 4px;
 }
 @media(max-width: 768px){
