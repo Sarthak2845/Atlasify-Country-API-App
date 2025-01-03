@@ -73,7 +73,7 @@ a {
     border-radius: 8px;
     overflow: hidden;
     padding-bottom: 24px;
-    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.534);
+    box-shadow: 4px 6px 0px 0px rgb(0, 0, 0);
     transition: all 0.2s ease-in-out;
     background-color: #f3f0ee;  
     cursor: pointer;
@@ -111,7 +111,7 @@ a {
     background-color: #3E5879;
     max-width: 350px;
     width: 100%;
-    box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.587);
+    box-shadow: 4px 6px 0px 0px rgb(0, 0, 0);
     border-radius: 4px;
     padding: 0 16px;
     padding-left: 24px;
@@ -129,6 +129,7 @@ a {
     outline: none;
     cursor: pointer;
     width: 90%;
+    
 }
 .search-container i{
     margin-right: 8px;
@@ -146,7 +147,7 @@ a {
     width:250px;
     outline: none;
     border: none;
-    box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.587);
+    box-shadow: 4px 6px 0px 0px rgb(0, 0, 0);
     border-radius: 4px;
 }
 @media(max-width: 768px){
