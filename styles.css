@@ -31,7 +31,7 @@ a {
     justify-content: space-between;
     max-width: 1200px;
     margin-inline: auto;
-  
+  text-transform: uppercase
 }
 .dark-mode-btn{
     /* background-color:#D91656; */
