@@ -6,8 +6,6 @@ body {
     margin: 0;
     font-family: Nunito, sans-serif;
     background-color: rgb(181, 210, 173);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 
@@ -26,9 +24,8 @@ a {
 .header-container {
     
     padding-inline: 24px;
-    /* background-color: #3293e1; */
     background-color: rgb(250, 223, 11);
-    color: black;
+    color: #000000;
 }
 .header-content {
     display: flex;
@@ -36,7 +33,7 @@ a {
     justify-content: space-between;
     max-width: 1200px;
     margin-inline: auto;
-  
+  text-transform: uppercase
 }
 .dark-mode-btn{
     
@@ -57,11 +54,19 @@ a {
     margin-inline:auto ;
 } 
 .dark-mode-header{
-    background-color: rgb(33, 33, 33);
-    color: rgb(230, 230, 230);
+    background-color: #021526;
+    /* color: #E2E2B6; */
+    color: #D8C4B6;
 }
 .dark-mode-body{
-    background-color: rgb(39, 41, 51);
+    /* background-color: #002756; */
+    background-color: #213555;
+}
+
+
+.country-card.dark-mode-card {
+    background-color: #cfd1d7 !important;  
+    color: #021526 !important; 
 }
 
 .country-card {
@@ -70,9 +75,9 @@ a {
     border-radius: 8px;
     overflow: hidden;
     padding-bottom: 24px;
-    box-shadow: 6px 6px 0px 0px rgb(0, 0, 0);
+    box-shadow: 4px 6px 0px 0px rgb(0, 0, 0);
     transition: all 0.2s ease-in-out;
-    background-color: rgb(253, 253, 150); 
+    background-color: rgb(253, 253, 150);   
     cursor: pointer;
     position: relative;
     z-index: 10;
@@ -106,10 +111,12 @@ a {
     margin-bottom: 48px;
     display: flex;
     justify-content: space-between;
+    color: #F5EFE7;
     /* flex-direction: row; */
 }
 .search-container{
-    background-color: rgb(250, 223, 11);
+    /* background-color:#3293e1; */
+    background-color: #3E5879;
     max-width: 350px;
     width: 100%;
     box-shadow: 4px 6px 0px 0px rgb(0, 0, 0);
@@ -124,20 +131,27 @@ a {
 .search-container input{
     border: none;
     padding: 16px;
-    background-color: rgb(250, 223, 11);
+    /* background-color:#3293e1; */
+    background-color: #3E5879;
+    color: #F5EFE7;
     outline: none;
     cursor: pointer;
     width: 90%;
+    
 }
 .search-container i{
     margin-right: 8px;
 }
 .search-container input::placeholder{
-    color: #021526;
+    /* color: #021526; */
+    color: #F5EFE7;
+
 }
 .search-filter-container select{
     padding:12px;
-    background-color: rgb(250, 223, 11);
+    /* background-color:#3293e1; */
+    background-color: #3E5879;
+    color: #F5EFE7;
     width:250px;
     outline: none;
     border: none;

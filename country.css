@@ -3,7 +3,7 @@
     color: whitesmoke;
     padding: 6px 24px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.557);
+    box-shadow: 4px 6px 0px 0px rgb(0, 0, 0);
 }
 .back-btn:hover{
     background-color: #fb0255;
@@ -26,6 +26,7 @@
 }
 .country-detail img{
 width: 50%;
+box-shadow: 4px 6px 0px 0px rgb(0, 0, 0);
 }
 .details-text{
     display: flex;
